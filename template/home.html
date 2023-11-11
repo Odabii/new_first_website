@@ -3,22 +3,89 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"       
+      rel="stylesheet" integrity="sha384-       
+      T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title> OFFICIAL </title>
-  <style> #banner { height: 400px; width: 100%; object-fit: cover 
-          </style>
-  </head>
   
-<body>
-  <div class= "container">
-    <h1 class= "fs-3 text-center mt-4 mb-3" id= "h1"> HI, Welcome to OFFICIAL </h1>
-    <img class= "img-fluid" id= "banner" src = https://newfirstwebsite--odabipraise.repl.co/static/pic1.jpg >
 
-    <h2 class= "fs-4 text-center mt-4 mb-2"> All About Us! </h2>
-    <p style="text-align:justify" class= "lead"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-  </div>
+  </head>
+
+  <body>
+    {% include "navbar.html" %}
+ 
+     
+      <img src= "/static/pic1.jpg" class= "img-fluid mb-5" style= "max-height: 300px; width: 100%; object-fit: cover ">
+
+     <div class="container-md">
+    <div class="card-fluid">
+      
+    
    
-   <div class= text-center> <button type= "button" class= "btn btn-primary btn-lg mt-5"> CONTACT ME! </button></div> 
+    <div class="row">
+      <div class="col-sm-6 mt-3"> <img src = "/static/bird.avif" class = "img-fluid img-responsive" width = "500px" height= "400px" style= "object-fit: cover"/> </div>
+      
+      <div class="card-body col-sm-6">
+        <div class="card-title text-center fw-bold mb-2"> All About Official! </div>
+        <p class="text"> Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum. <br><br> Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.<br><br>Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum. </p></div>
+
+      <div style= "margin-bottom: 100px"></div>
+      
+      <div class=" card-body col-sm-6">
+        <div class="card-title text-center fw-bold mb-3"> All About our Partners! </div>
+        <p class="text-justify me-3"> Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum. <br><br> Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.<br><br>Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum. </p></div>
+
+      <div class="col-sm-6 mt-3"> <img src = "/static/bird.avif" class = "img-fluid img-responsive" width = "500px" height= "400px" style= "object-fit: cover"/> </div>
+      </div>
+    </div>
+
+       
+       <div class="text-center mb-5"> <h2>SPONSERS OFFICIELE</h2> </div>
+       <div class="card-responsive mb-5">
+       <div class="row">
+         
+       <div class="col-4 fw-bold"> ODABI PRAISE <br> C.E.O EDEN co, </div>
+
+         
+       <div class="col-7 text-end"> <button><<a href= "https://adhousego.business.site/" class="btn-lg btn-primary"> CONTACT </a> </div>
+       </div>
+       </div>
+
+       
+
+      
+       
+    </div>
+    <img src= "/static/pic1.jpg" class= "img-fluid p-3 img-responsive" style= "max-height: 300px; width: 100%; object-fit: cover; background-color: black">
+
+    <div class="card-fluid">
+      <div class="card-body p-5" style="background-color: black">
+     
+    {% include "footer.html" %}
+
+        </div>
+        </div>
+
+
+      
   
-</body>
+
+    
+
+
+
+
+
+    
+  </body>
+
+
+
+
+
+
+
+
+
+  
 </html>
